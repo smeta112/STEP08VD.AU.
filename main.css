@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.wrapper video{
+    max-width: 100%;
+}
